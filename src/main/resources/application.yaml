@@ -10,9 +10,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_URL:http://user:password@localhost:8761}/eureka/
-  instance:
-    hostname: ${DOMAIN_NAME:localhost}
-    nonSecurePort: 80
+
 
 
 zuul:
@@ -21,3 +19,4 @@ zuul:
     chucknorris:
       path: /chucknorris/**
       serviceId: chucknorris-service
+
