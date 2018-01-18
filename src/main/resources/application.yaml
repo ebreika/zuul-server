@@ -13,6 +13,7 @@ eureka:
 
 
 
+
 zuul:
   prefix: /api
   routes:
