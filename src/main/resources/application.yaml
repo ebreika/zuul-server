@@ -22,7 +22,5 @@ zuul:
     chucknorris:
       path: /chucknorris/**
       serviceId: chucknorris-service
-    tours:
-      path: /tour/**
-      serviceId: tours-service
+   
 
