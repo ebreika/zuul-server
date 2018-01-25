@@ -17,6 +17,8 @@ zuul:
       path: /tour/**
       serviceId: tours-service
 
+
+
 eureka:
   client:
     serviceUrl:
