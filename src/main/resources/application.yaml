@@ -5,7 +5,9 @@ spring:
 server:
   port: ${PORT:8080}
 
+
 zuul:
+  ignoredServices: '*'
   prefix: /api
   routes:
     chucknorris:
